@@ -6,7 +6,9 @@
     </title>
 <link rel="stylesheet" href="styles.css">
 
+
 <div class="Top">
+ 
 <h2>Hello</h2>
 <h4>My Name Is</h4>
 </div>
@@ -14,10 +16,22 @@
 
   <body>
 
-<h1>Thomas</h1>
+<h1 id="full-name">Thomas</h1>
 
+
+<input id="Medication" name="Medication" onkeyup = myFunction(this) size="50" type="text" value="">
+
+<h3 id="myAnchor"></h3>
   </body>
   <footer>
-<p>.   </p>
+<p>.  </p>
+<form>
+  <div class="myInput">
+    <label for="full-name"> Enter your name:</label>
+    <input type="text" name="Full-name" id="full-name" required />
+    <button>Submit</button>
+  </div> 
+</form>
+<script src="Hello.js"></script>
   </footer>
 </html>
